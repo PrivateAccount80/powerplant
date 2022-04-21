@@ -1,4 +1,8 @@
 # RUN && BUILD
+to install dependency : 
+```
+pip install --no-cache-dir --upgrade -r requirements.txt
+```
 to run app : 
 ```
 uvicorn app.main:app --reload --port 8888
