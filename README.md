@@ -12,6 +12,11 @@ or if you dont have uvicorn in environement variable
 python -m uvicorn app.main:app --reload --port 8888
 ```
 
+you can use the OpenAPI interface to try the API
+```
+http://localhost:8888/docs
+```
+
 # DOCKER
 to build image please run 
 ```
